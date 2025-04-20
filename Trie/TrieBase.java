@@ -65,9 +65,9 @@ class Trie {
 
 public class TrieBase { 
     public static void main(String[] args) {
-        String s1 = "mohitisgood";
-        String s2 = "mohitisamazing";
-        String s3 = "mohit";
+        String s1 = "thalaisgood";
+        String s2 = "thalaisamazing";
+        String s3 = "thala";
         String s4 = "good";
         Trie trie = new Trie();
         trie.insert(s1);
