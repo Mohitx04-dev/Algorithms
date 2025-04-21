@@ -1,4 +1,4 @@
-package Trie;
+package Strings.Trie;
 
 class TrieNode {
     TrieNode[] arr;

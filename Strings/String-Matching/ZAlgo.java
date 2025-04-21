@@ -5,6 +5,8 @@ public class ZAlgo {
         int r=0, l=0;
         int n = t.length();
         int[] z = new int[n];
+        // z[i] means Starting at position i, how much of the prefix matches or
+        // Z[i] = length of the longest substring starting at i which is also a prefix of the string.
         for(int i=1;i<n;i++) {
             if(i <= r) {
                 z[i] = Math.min(z[i-l],r-i+1);
